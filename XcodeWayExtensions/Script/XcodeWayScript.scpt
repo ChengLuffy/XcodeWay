@@ -80,7 +80,7 @@ end myOpenFolder
 
 on myOpeniTerm(myPath)
 tell application "Finder"
-do shell script "open -a iTerm " & quoted form of myPath
+do shell script "open -a Terminal " & quoted form of myPath
 end tell
 end myOpeniTerm
 
